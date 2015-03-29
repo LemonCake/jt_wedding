@@ -1,0 +1,294 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,body{
+ 	font-family: 'Lato', sans-serif;
+	width:100%;
+	height:100%;
+}
+
+/* unvisited link */
+a:link {
+    color: #FFD700;
+}
+
+/* visited link */
+a:visited {
+    color: #FFD700;
+}
+
+/* mouse over link */
+a:hover {
+    color: #CCCCFF;
+}
+
+/* selected link */
+a:active {
+    color: #CCCCFF;
+}
+
+.navigation {
+	background-color:rgba(0,0,0,0.7);
+	position:fixed;
+	z-index:1;
+	top:0px;
+	width: 100%;
+	height:50px;
+	min-width:1300px;
+	text-align: center;
+}
+
+.navigation div {
+	display:inline-block;
+	vertical-align:middle;	
+}
+
+.navigation .menu{
+	font-family: 'Playfair Display', serif;
+	color:#FFFFFF;
+	padding: 15px 15px;	
+	text-align:center;
+	font-size:12pt;
+	width:125px;
+	-webkit-transition: all .2s ease-in-out;
+}
+
+.navigation .menu:hover,.active{
+	color:#CCCCFF;
+	cursor:pointer;
+}
+
+.navigation .logo {
+	font-family: 'Tangerine', cursive;
+	font-weight:700;
+	padding:0 0;
+	font-size:24pt;
+	width:300px;
+	color:#FFD700;
+}
+
+.slide{
+	background-attachment: fixed;
+	width:100%;
+	height:100%;
+	position: relative;
+}
+
+.title {
+	font-size:36px;
+	font-family: 'Tangerine', cursive;
+	color:#FFFFFF;	
+}
+
+.slideTitle{
+	font-family: 'Tangerine', cursive;
+	position:absolute;
+	top:100px;
+	left:0px;
+	width:300px;
+	text-align:center;
+	font-size:72px;
+	color:#FFFFFF;
+}
+.button{
+	display:block;
+	width:80px;
+	height:40px;
+	position:absolute;
+	bottom:0px;
+	left:47%;
+	margin:auto;
+	background-repeat: no-repeat;
+	background-color:rgba(89,89,89,0.3);
+	background-position:center;
+	background-image:url(../resource/arrow.png);
+}
+.button:hover{
+	background-color:rgba(89,89,89,0.5);
+	cursor:pointer;
+}
+
+.jtText p {
+	color:#FFFFFF;
+	font-size:14px;
+}
+
+/******************************
+ SLIDE 1 - Home
+*******************************/
+#slide1 {
+	background-image:url("../resource/slide1/home_background.jpg");	
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size:cover;
+}
+
+/******************************
+ SLIDE 2 - Our Story
+*******************************/
+#slide2 {
+	background-image:url("../resource/slide2/story_background.jpg");	
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size:cover;
+}
+
+#story1 {
+	position:absolute;
+	display:block;
+	bottom:150px;
+	left:0px;
+	margin:0 30px;
+	padding:20px;
+	line-height:30px;
+	color:#FFFFFF;
+}
+
+/******************************
+ SLIDE 3 - Our Story 2
+*******************************/
+#slide3 {
+	background-image:url("../resource/slide3/story2_background.jpg");	
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size:cover;
+}
+
+#story2 {
+	position:absolute;
+	display:block;
+	overflow:auto;
+	top:50px;
+	left:0px;
+	width:400px;
+	margin:0 30px;
+	padding:20px;
+	background-color:rgba(0,0,0,0.3);
+	line-height:30px;
+	color:#FFFFFF;
+}
+
+#story3 {
+	position:absolute;
+	display:block;
+	overflow:auto;
+	top:50px;
+	right:0px;
+	margin:0 30px;
+	padding:20px;
+	width:400px;
+	background-color:rgba(0,0,0,0.3);
+	line-height:30px;
+	color:#FFFFFF;
+}
+
+/******************************
+ SLIDE 4 - Proposal
+*******************************/
+
+#slide4 {
+	background-image:url("../resource/slide4/proposal_background.jpg");	
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size:cover;
+}
+
+#proposal1 {
+	position:absolute;
+	display:block;
+	height:250px;
+	overflow:visible;
+	bottom:0px;
+	right:0px;
+	margin:20px;
+	padding:20px;
+	width:400px;
+	background-color:rgba(0,0,0,0.3);
+	line-height:30px;
+	color:#FFFFFF;
+}
+
+/******************************
+ SLIDE 5 - Proposal 2
+*******************************/
+
+#slide5 {
+	background-image:url("../resource/slide5/proposal2_background.jpg");	
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size:cover;
+}
+
+/******************************
+ SLIDE 6 - Wedding Party
+*******************************/
+
+#slide6 {
+	background-image:url("../resource/slide6/weddingparty_background.jpg");	
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size:cover;
+}
+
+/******************************
+ SLIDE 7 - Event Info
+*******************************/
+
+#slide7{
+	background-image:url("../resource/slide7/eventinfo_background.jpg");	
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size:cover;
+}
+
+.event_block {
+	display:block;
+	position:relative;
+	top:175px;
+	text-align:center;
+}
+
+.event_info {
+	display:inline-block;
+	margin: 20px;
+	padding: 20px;
+	overflow:auto;
+	background-color:rgba(0,0,0,0.3);
+	vertical-align:top;
+}
+
+.event_text {
+	text-align:left;
+	margin: 0 0 20px 0;
+	color:#FFFFFF;
+	line-height:30px;
+}
+
+/***********************
+ SLIDE 8 - Registry
+*******************************/
+
+#slide8{
+	background-image:url("../resource/slide8/registry_background.jpg");	
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size:cover;
+}
+
+#registry_text {
+	position: absolute;
+	bottom:20px;
+	left:25%;
+	right:25%;
+	background-color:rgba(0,0,0,0.3);
+	text-align:center;
+	padding: 20px;
+	color:#FFFFFF;
+	line-height:30px;
+}
