@@ -109,7 +109,7 @@ a:active {
 	background-repeat: no-repeat;
 	background-color:rgba(89,89,89,0.3);
 	background-position:center;
-	background-image:url(../resource/arrow.png);
+	background-image:url(//s3-us-west-1.amazonaws.com/jtwedding/arrow.png);
 }
 .button:hover{
 	background-color:rgba(89,89,89,0.5);
@@ -125,7 +125,7 @@ a:active {
  SLIDE 1 - Home
 *******************************/
 #slide1 {
-	background-image:url("../resource/slide1/home_background.jpg");	
+	background-image:url("//s3-us-west-1.amazonaws.com/jtwedding/home_background.jpg");	
 	background-repeat: no-repeat;
 	background-position: left top;
 	background-size:cover;
@@ -135,7 +135,7 @@ a:active {
  SLIDE 2 - Our Story
 *******************************/
 #slide2 {
-	background-image:url("../resource/slide2/story_background.jpg");	
+	background-image:url("//s3-us-west-1.amazonaws.com/jtwedding/story_background.jpg");	
 	background-repeat: no-repeat;
 	background-position: left top;
 	background-size:cover;
@@ -156,7 +156,7 @@ a:active {
  SLIDE 3 - Our Story 2
 *******************************/
 #slide3 {
-	background-image:url("../resource/slide3/story2_background.jpg");	
+	background-image:url("//s3-us-west-1.amazonaws.com/jtwedding/story2_background.jpg");	
 	background-repeat: no-repeat;
 	background-position: left top;
 	background-size:cover;
@@ -195,7 +195,7 @@ a:active {
 *******************************/
 
 #slide4 {
-	background-image:url("../resource/slide4/proposal_background.jpg");	
+	background-image:url("//s3-us-west-1.amazonaws.com/jtwedding/proposal_background.jpg");	
 	background-repeat: no-repeat;
 	background-position: left top;
 	background-size:cover;
@@ -221,7 +221,7 @@ a:active {
 *******************************/
 
 #slide5 {
-	background-image:url("../resource/slide5/proposal2_background.jpg");	
+	background-image:url("//s3-us-west-1.amazonaws.com/jtwedding/proposal2_background.jpg");	
 	background-repeat: no-repeat;
 	background-position: left top;
 	background-size:cover;
@@ -232,7 +232,7 @@ a:active {
 *******************************/
 
 #slide6 {
-	background-image:url("../resource/slide6/weddingparty_background.jpg");	
+	background-image:url("//s3-us-west-1.amazonaws.com/jtwedding/weddingparty_background.jpg");	
 	background-repeat: no-repeat;
 	background-position: left top;
 	background-size:cover;
@@ -243,7 +243,7 @@ a:active {
 *******************************/
 
 #slide7{
-	background-image:url("../resource/slide7/eventinfo_background.jpg");	
+	background-image:url("//s3-us-west-1.amazonaws.com/jtwedding/eventinfo_background.jpg");	
 	background-repeat: no-repeat;
 	background-position: left top;
 	background-size:cover;
@@ -277,7 +277,7 @@ a:active {
 *******************************/
 
 #slide8{
-	background-image:url("../resource/slide8/registry_background.jpg");	
+	background-image:url("//s3-us-west-1.amazonaws.com/jtwedding/registry_background.jpg");	
 	background-repeat: no-repeat;
 	background-position: left top;
 	background-size:cover;

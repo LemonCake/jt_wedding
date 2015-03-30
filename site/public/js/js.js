@@ -14,14 +14,14 @@ jQuery(document).ready(function ($) {
     htmlbody = $('html,body');
 
 	// load text files
-	$('#story1').load("resource/slide2/story1.txt");
-	$('#story2').load("resource/slide3/story2.txt");
-	$('#story3').load("resource/slide3/story3.txt");
-	$('#proposal1').load("resource/slide4/proposal1.txt");
-	$('#location_time_text').load("resource/slide7/location_time.txt");
-	$('#guest_request').load("resource/slide7/guest_request.txt");
-	$('#accommodations_text').load("resource/slide7/accommodations.txt");
-	$('#registry_text').load("resource/slide8/registry.txt");
+	$('#story1').load("resource/story1.txt");
+	$('#story2').load("resource/story2.txt");
+	$('#story3').load("resource/story3.txt");
+	$('#proposal1').load("resource/proposal1.txt");
+	$('#location_time_text').load("resource/location_time.txt");
+	$('#guest_request').load("resource/guest_request.txt");
+	$('#accommodations_text').load("resource/accommodations.txt");
+	$('#registry_text').load("resource/registry.txt");
 	
     //Setup waypoints plugin
     slide.waypoint(function (event, direction) {
