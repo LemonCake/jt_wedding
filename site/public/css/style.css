@@ -60,11 +60,6 @@ a:active {
 	-webkit-transition: all .2s ease-in-out;
 }
 
-.navigation .menu.disable {
-	color:#888888;
-	pointer-events:none;
-}
-
 .navigation .menu:hover,.active{
 	color:#CCCCFF;
 	cursor:pointer;
