@@ -45,6 +45,11 @@ a:active {
 	text-align: center;
 }
 
+.navigation .menu.disable {
+    color:#888888;
+    pointer-events:none;
+}
+
 .navigation div {
 	display:inline-block;
 	vertical-align:middle;	
@@ -202,7 +207,7 @@ a:active {
 #proposal1 {
 	position:absolute;
 	display:block;
-	height:250px;
+	height:300px;
 	overflow:visible;
 	bottom:0px;
 	right:0px;
@@ -225,6 +230,31 @@ a:active {
 	background-size:cover;
 }
 
+#proposal2 {
+	position:absolute;
+	display:block;
+	overflow:auto;
+	top:20%;
+	left:10%;
+	width:400px;
+	padding:20px;
+	background-color:rgba(0,0,0,0.3);
+	line-height:30px;
+	color:#FFFFFF;
+}
+
+#proposal3 {
+	position:absolute;
+	display:block;
+	overflow:auto;
+	top:20%;
+	right:10%;
+	padding:20px;
+	width:400px;
+	background-color:rgba(0,0,0,0.3);
+	line-height:30px;
+	color:#FFFFFF;
+}
 /******************************
  SLIDE 6 - Wedding Party
 *******************************/

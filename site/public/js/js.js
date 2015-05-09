@@ -18,6 +18,8 @@ jQuery(document).ready(function ($) {
 	$('#story2').load("resource/story2.txt");
 	$('#story3').load("resource/story3.txt");
 	$('#proposal1').load("resource/proposal1.txt");
+	$('#proposal2').load("resource/proposal2.txt");
+	$('#proposal3').load("resource/proposal3.txt");
 	$('#location_time_text').load("resource/location_time.txt");
 	$('#guest_request').load("resource/guest_request.txt");
 	$('#accommodations_text').load("resource/accommodations.txt");
