@@ -149,11 +149,13 @@ a:active {
 #story1 {
 	position:absolute;
 	display:block;
-	bottom:150px;
-	left:0px;
+	overflow:auto;
+	bottom:10%;
 	margin:0 30px;
 	padding:20px;
+	height:100px;
 	line-height:30px;
+	background-color:rgba(0,0,0,0.3);
 	color:#FFFFFF;
 }
 
