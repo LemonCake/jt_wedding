@@ -91,6 +91,13 @@ a:active {
 	font-size:36px;
 	font-family: 'Tangerine', cursive;
 	color:#FFFFFF;	
+	white-space: nowrap;
+}
+
+.subtitle {
+	font-size:24px;
+	font-family: 'Tangerine', cursive;
+	color:#FFFFFF;	
 }
 
 .slideTitle{
@@ -98,7 +105,7 @@ a:active {
 	position:absolute;
 	top:100px;
 	left:0px;
-	width:300px;
+	width:350px;
 	text-align:center;
 	font-size:72px;
 	color:#FFFFFF;
@@ -266,6 +273,44 @@ a:active {
 	background-repeat: no-repeat;
 	background-position: left top;
 	background-size:cover;
+}
+
+.party_container {
+	display:block;
+	position:relative;
+	top:15%;
+	text-align:center;
+}
+
+.party_block {
+	display:inline-block;
+	width:500px;
+	position:relative;
+	padding: 20px;
+	margin: 20px;
+	vertical-align:top;
+	background-color:rgba(0,0,0,0.3);
+}
+
+.party_info {
+	display:table-row;
+	vertical-align: middle;
+	text-align:left;
+	color:#FFFFFF;
+	line-height:20px;
+}
+
+.party_cell_pic {
+	display:table-cell;
+	vertical-align: middle;
+	text-align: center;
+	padding:10px;	
+}
+
+.party_cell {
+	display:table-cell;
+	vertical-align: middle;
+	padding:10px;	
 }
 
 /******************************
