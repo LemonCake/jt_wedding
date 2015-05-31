@@ -80,11 +80,11 @@ a:active {
 }
 
 .slide {
-	background-attachment: fixed;
 	width:100%;
 	min-width:1100px;
 	height:100%;
 	position: relative;
+	background-size:cover;
 }
 
 .title {
@@ -138,9 +138,6 @@ a:active {
 *******************************/
 #slide1 {
 	background-image:url("//s3-us-west-1.amazonaws.com/jtwedding/home_background.jpg");	
-	background-repeat: no-repeat;
-	background-position: left top;
-	background-size:cover;
 }
 
 /******************************
@@ -148,9 +145,6 @@ a:active {
 *******************************/
 #slide2 {
 	background-image:url("//s3-us-west-1.amazonaws.com/jtwedding/story_background.jpg");	
-	background-repeat: no-repeat;
-	background-position: left top;
-	background-size:cover;
 }
 
 #story1 {
@@ -171,9 +165,6 @@ a:active {
 *******************************/
 #slide3 {
 	background-image:url("//s3-us-west-1.amazonaws.com/jtwedding/story2_background.jpg");	
-	background-repeat: no-repeat;
-	background-position: left top;
-	background-size:cover;
 }
 
 #story2 {
@@ -208,9 +199,6 @@ a:active {
 
 #slide4 {
 	background-image:url("//s3-us-west-1.amazonaws.com/jtwedding/proposal_background.jpg");	
-	background-repeat: no-repeat;
-	background-position: left top;
-	background-size:cover;
 }
 
 #proposal1 {
@@ -234,9 +222,6 @@ a:active {
 
 #slide5 {
 	background-image:url("//s3-us-west-1.amazonaws.com/jtwedding/proposal2_background.jpg");	
-	background-repeat: no-repeat;
-	background-position: left top;
-	background-size:cover;
 }
 
 #proposal2 {
@@ -270,9 +255,6 @@ a:active {
 
 #slide6 {
 	background-image:url("//s3-us-west-1.amazonaws.com/jtwedding/weddingparty_background.jpg");	
-	background-repeat: no-repeat;
-	background-position: left top;
-	background-size:cover;
 }
 
 .party_container {
@@ -319,9 +301,6 @@ a:active {
 
 #slide7{
 	background-image:url("//s3-us-west-1.amazonaws.com/jtwedding/eventinfo_background.jpg");	
-	background-repeat: no-repeat;
-	background-position: left top;
-	background-size:cover;
 }
 
 .event_block {
@@ -352,9 +331,6 @@ a:active {
 
 #slide8{
 	background-image:url("//s3-us-west-1.amazonaws.com/jtwedding/registry_background.jpg");	
-	background-repeat: no-repeat;
-	background-position: left top;
-	background-size:cover;
 }
 
 #registry_text {
